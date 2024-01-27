@@ -32,8 +32,10 @@ The main goal of this challenge is to build out the project to the designs provi
 
 To build this project without Sketch and Figma design file access, I used the LightShot application to take screenshots and analyze the desired content in parts. You can check this analysis in the image below:
 ![Screenshot analysis](./design/Screenshot_1.png)
+
 Although I reached a similar result, something that bothers me is the little spacing between the elements of the .account-info class:
 ![Screenshot analysis](./design/Screenshot_2.png)
+
 What did I do:
 What I have already tested is that the justify-content property has the same result when I apply the space-around and space-evenly values, while space-between the element in question sticks to the corner. When I remove the padding:30px, the result is that the element rises by 30px and does not result in changes to the sides.
 
