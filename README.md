@@ -17,7 +17,7 @@ This is my solution to the [Profile card component challenge on Frontend Mentor]
 
 ### The challenge
 
-The main goal of this challenge is to build out the project to the designs provided practicing flexbox skills.
+The main goal of this challenge is to build out the project to the designs provided by practicing flexbox skills.
 
 ### Screenshot
 
@@ -25,8 +25,8 @@ The main goal of this challenge is to build out the project to the designs provi
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+  - Solution URL: [GitHub Repository](https://github.com/thaisavieira/profile-card-componet)
+- Live Site URL: [GitHub Pages](https://thaisavieira.github.io/profile-card-componet/)
 
 ## My process
 
@@ -37,7 +37,7 @@ Although I reached a similar result, something that bothers me is the little spa
 ![Screenshot analysis](./design/Screenshot_2.png)
 
 What did I do:
-What I have already tested is that the justify-content property has the same result when I apply the space-around and space-evenly values, while space-between the element in question sticks to the corner. When I remove the padding:30px, the result is that the element rises by 30px and does not result in changes to the sides.
+What I have already tested is that the justify-content property has the same result when I apply the space-around and space-evenly values, while space-between the element in question sticks to the corner. When I remove the padding 30px, the result is that the element rises by 30px and does not result in changes to the sides.
 
 Follow the code below
 
