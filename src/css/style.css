@@ -1,0 +1,66 @@
+body{
+    background-color: var(--background-color);
+    font-family: 'Kumbh sans', sans-serif;
+    font-size: 18px;
+}
+
+
+span{
+    color:var(--text-color);
+    font-weight: 400;
+}
+
+
+hr{
+    width: 100%;
+}
+
+.name .data{
+    font-weight: 700;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 350px;
+    height: 375px;
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+
+.card .personal-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card .personal-info img{
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.name{
+    padding-top: 20px;
+}
+
+.location{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.card .account-info li{
+    display: inline-block;
+}
+
+.card .account-info{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 30px;
+}
