@@ -1,19 +1,28 @@
 body{
-    background-color: var(--background-color);
     font-family: 'Kumbh sans', sans-serif;
     font-size: 18px;
+    /* cicle background */
+    background-color: var(--background-color);
+    /* background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat no-repeat;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh; */
+    background-image: url("/src/images/bg-pattern-top.svg"), url("/src/images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
-
 
 span{
     color:var(--text-color);
     font-weight: 400;
 }
 
-
-hr{
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
     width: 100%;
 }
+
 
 .name .data{
     font-weight: 700;
@@ -27,8 +36,9 @@ hr{
 }
 
 .card{
-    width: 350px;
-    height: 375px;
+    /* width: 350px; */
+    /* height: 375px; */
+    padding: 30px;
     background-color: #fafafa;
     border-radius: 10px;
 }
@@ -54,13 +64,14 @@ hr{
     padding-bottom: 25px;
 }
 
-.card .account-info li{
-    display: inline-block;
-}
 
 .card .account-info{
-    display: flex;
-    justify-content: space-evenly;
     text-align: center;
-    padding: 30px;
+    padding-top:25px;
+}
+
+@media (max-width: 415px){
+    .card{
+        width: 90%;
+    }
 }
