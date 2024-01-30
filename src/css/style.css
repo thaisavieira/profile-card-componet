@@ -41,6 +41,9 @@ ul{
     padding: 30px;
     background-color: #fafafa;
     border-radius: 10px;
+    background-image: url("/src/images/bg-pattern-card.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .card .personal-info{
@@ -48,6 +51,8 @@ ul{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
+    
 }
 
 .card .personal-info img{
