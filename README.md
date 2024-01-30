@@ -35,9 +35,9 @@ Now, let's have a look in the second's solution:
 ![Screenshot second solution](./design/screenshot-final-solution.png)
  That solution is only possible thanks to Frontend Mentor community, who answered my doubts and helped me to build a better code. A special thanks to [Hugo Sanchez](https://www.frontendmentor.io/profile/HunigoleSan) and [Daniel](https://www.frontendmentor.io/profile/danielmrz-dev).
 
- The screenshot comes directly from my local server, when I uploaded this new version to GitHub, I find the following issue on GitHub Pages:
+ The screenshot comes directly from my local server, when I uploaded this new version to GitHub for the first time, I find the following issue on GitHub Pages:
 ![New issue](./design/404-issue.png)
-All of my bg-pattern-top.svg, bg-pattern-bottom.svg, and bg-pattern-card.svg images have the 404 Not Found status code,  just as if they were missing files.
+All of my bg-pattern-top.svg, bg-pattern-bottom.svg, and bg-pattern-card.svg images have the 404 Not Found status code,  just as if they were missing files. This issue was solved with MDN Docs search.
 
 ### Links
 
