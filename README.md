@@ -34,10 +34,27 @@ In this solution is possible to see any background image in body or in the perso
 Now, let's have a look in the second's solution:
 ![Screenshot second solution](./design/screenshot-final-solution.png)
  That solution is only possible thanks to Frontend Mentor community, who answered my doubts and helped me to build a better code. A special thanks to [Hugo Sanchez](https://www.frontendmentor.io/profile/HunigoleSan) and [Daniel](https://www.frontendmentor.io/profile/danielmrz-dev).
+ For this solution I had to add the flex propriety directly in the UL element, like this:
 
- The screenshot comes directly from my local server, when I uploaded this new version to GitHub for the first time, I find the following issue on GitHub Pages:
+ ```CSS
+ ul{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+ }
+ ```
+
+What I was doing was applying `display: flex` in the `.info-account` div.
+Also, I just avoid fixed measurements in the `.card` class, letting the child elments naturally expand within the parent container. 
+
+The next issue I faced was to find different versions from my local server and GitHub Pages:
 ![New issue](./design/404-issue.png)
-All of my bg-pattern-top.svg, bg-pattern-bottom.svg, and bg-pattern-card.svg images have the 404 Not Found status code,  just as if they were missing files. This issue was solved with MDN Docs search.
+All of my bg-pattern-top.svg, bg-pattern-bottom.svg, and bg-pattern-card.svg images had the 404 Not Found status code,  just as if they were missing files. This issue was solved with MDN documentation search, like this:
+
+```CSS
+background-image: url("../../src/images/bg-pattern-card.svg")
+```
+
 
 ### Links
 
@@ -58,6 +75,7 @@ It was a relevant project for reinforcing semantic HTML skills, styling and my f
 ### Useful resources
 
 - [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me for being a visual resource and bring some pratical examples of application. I really liked this pattern and will use it going forward.
+- [MDN Dococumentation](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image) - This section really helped me in the last stage from this project, deployiment.
 - [My own class notes (pt-BR)](https://www.notion.so/CSS-Avan-ado-Flexbox-046260bf28e64e89a553623ba180ea03?pvs=4) -These notes were made in class, during explanations of concepts and practical examples.
 
 ## Author
