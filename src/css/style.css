@@ -6,7 +6,7 @@ body{
     /* background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
     background-repeat: no-repeat no-repeat;
     background-position: right 52vw bottom 35vh, left 48vw top 52vh; */
-    background-image: url("/src/images/bg-pattern-top.svg"), url("/src/images/bg-pattern-bottom.svg");
+    background-image: url("./src/images/bg-pattern-top.svg"), url("./src/images/bg-pattern-bottom.svg");
     background-repeat: no-repeat, no-repeat;
     background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
@@ -41,7 +41,7 @@ ul{
     padding: 30px;
     background-color: #fafafa;
     border-radius: 10px;
-    background-image: url("/src/images/bg-pattern-card.svg");
+    background-image: url("./src/images/bg-pattern-card.svg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
